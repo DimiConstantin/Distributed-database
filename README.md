@@ -18,13 +18,3 @@ Tema 2 - Distributed Database
     La comanda de tip EDIT, intai se verifica daca exista documentul in cache. Daca exista, se actualizeaza continutul in cache. Daca nu, se verifica daca exista in database-ul serverului. In acest caz, se adauga documentul in cache si se actualizeaza continutul. Altfel, documentul nu exista nicaieri, deci este creat si adaugat in database si cache. Daca este cache-ul plin, se elimina o intrare din cache si se muta in database.
 
     La comanda de tip GET, daca exista documentul in cache, se returneaza continutul lui. Daca nu exista nici in database, se returneaza NULL, iar altfel se returneaza continutul si se adauga documentul in cache.
-
-
-### Comentarii asupra temei:
-
-* Crezi că ai fi putut realiza o implementare mai bună?
-    Da, daca as fi inceput tema mai din timp, implementarea actuala fiind incompleta si ineficienta din punctul meu de vedere
-* Ce ai invățat din realizarea acestei teme?
-    Am invatat sa lucrez cu un hashmap, am exersat lucrul cu pointeri si am invatat sa dau debug fara ajutorul checker-ului. Conceptul temei este foarte interesant, un server fiind un lucru foarte intalnit in tehnologia informatiei 
-* Alte comentarii
-    
